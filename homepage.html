@@ -1,0 +1,104 @@
+<!-- Home Page for STEM website
+Written and coded by Elijah Rivers 
+No hacks allowed-->
+
+<!--Meta Setup-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="STEM academy website for Lawrence High School">
+    <link rel=stylesheet href=css/style.css>
+    <link rel=stylesheet href=css/app.css>
+    <title>LHS STEM Academy</title>
+    <!-- For social media -->
+    <meta property="og:title" content="LHS STEM Academy">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:description" content="STEM academy website for Lawrence High School. Learn about what the commitees are up to.">
+    <meta property="og:image" content="stem_logo.png">
+</head>
+
+<body>
+    <header>
+        <img src="img/stem_logo.PNG" alt="logo" class="logo">
+        <h1 class="title">LHS STEM Academy</h1>
+        <p class="subtitle">SCIENCE. TECHNOLOGY. ENGINEERING. MATH.</p>
+        <div class="game_button" onclick="spawn_dubby()"></div>
+    </header>
+
+    <!-- Navigation bar -->
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="commitees.html">COMMITEES</a></li>
+                    <li><a href="calender.html">CALENDAR</a></li>
+                </ul>
+            </nav>
+        </div>
+    <!-- Search bar -->
+        <input type="text" id="searchbar" onkeyup="search()" placeholder="Search around..">
+    <!-- Scrolling images -->
+    <div id="scroller">
+        <ul id="scroll_img"> 
+            <li><img src="img/placeholder.png" alt=""></li>
+            <li><img src="img/stem_logo.PNG" alt=""></li>
+        </ul>
+        <a id="prev" href="#">&#8810;</a>
+        <a id="next" href="#">&#8811;</a>
+    </div>
+
+    <!-- About us section -->
+    <article>
+        <h2>About Us</h2>
+        <img src=img/placeholder.png alt="sidebar" class="sidebar">
+        <p><u>Teacher Leadership</u></p>
+        <p>Gwenn Andahazy</p>
+        <p><u>Student Leadership</u></p>
+        <p>Milan</p>
+        <p>Rohan</p>
+        <p>Adam</p>
+        <p class="subsection">
+            Twenty-five years Dana had been waiting. 
+            She tried to be patient during that time but she hadn't always managed to be as patient as she'd like. 
+            But today the opportunity had finally come. 
+            The thing she always imagined would make her the happiest person in the world was about to happen. 
+            She didn't know why at this specific time she all of a sudden felt sick inside.
+        </p>
+    </article>
+
+    <!-- What's new section -->
+    <article>
+        <h2>What's New</h2>
+        <img src=img/placeholder.png alt="sidebar" class="sidebar">
+        <p class="subsection">
+            Twenty-five years Dana had been waiting. 
+            She tried to be patient during that time but she hadn't always managed to be as patient as she'd like. 
+            But today the opportunity had finally come. 
+            The thing she always imagined would make her the happiest person in the world was about to happen. 
+            She didn't know why at this specific time she all of a sudden felt sick inside.
+        </p>
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="commitees.html">COMMITEES</a></li>
+                    <li><a href="calender.html">CALENDAR</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/search.js"></script>
+    <script src="js/app/main.js"></script>
+    <script src="js/display.js"></script>
+</body>
+<canvas></canvas>
+</html>
